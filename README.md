@@ -1,2 +1,2 @@
 # BillsReminderWebAPI
-Web API pet work, can be freely consumed.
+Web API pet work with Dapper, can be freely consumed.
