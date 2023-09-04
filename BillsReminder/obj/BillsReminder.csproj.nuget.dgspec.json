@@ -4,6 +4,73 @@
     "/Users/tundey/Projects/BillsReminder/BillsReminder/BillsReminder.csproj": {}
   },
   "projects": {
+    "/Users/tundey/Projects/BillsReminder/BillsData/BillssData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tundey/Projects/BillsReminder/BillsData/BillssData.csproj",
+        "projectName": "BillssData",
+        "projectPath": "/Users/tundey/Projects/BillsReminder/BillsData/BillssData.csproj",
+        "packagesPath": "/Users/tundey/.nuget/packages/",
+        "outputPath": "/Users/tundey/Projects/BillsReminder/BillsData/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tundey/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.151, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/tundey/Projects/BillsReminder/BillsReminder/BillsReminder.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +93,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/tundey/Projects/BillsReminder/BillsData/BillssData.csproj": {
+                "projectPath": "/Users/tundey/Projects/BillsReminder/BillsData/BillssData.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -42,6 +113,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

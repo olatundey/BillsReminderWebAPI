@@ -16,4 +16,9 @@
     <Folder Include="Repository\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.2.7" />
+    <PackageReference Include="Dapper" Version="2.0.151" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+  </ItemGroup>
 </Project>

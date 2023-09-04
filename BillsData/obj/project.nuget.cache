@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Nxs3aAC2Adn5wk8ztec26siDdZzhnGVN+fWL5zsh5Xs2G6EoLVKE7E7H9+24d7YFcZ9TgXcE1NZhP1mls4M2Nw==",
+  "dgSpecHash": "M3Hs+vdInElBefHUklAObOIqnTmshpAvWcoEBFt8LSGdfZLOC1MLCxiVKt/VA1tFJNJFLdVO11X6K1hJJ+eR1A==",
   "success": true,
   "projectFilePath": "/Users/tundey/Projects/BillsReminder/BillsData/BillssData.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/tundey/.nuget/packages/dapper/2.0.151/dapper.2.0.151.nupkg.sha512",
+    "/Users/tundey/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/tundey/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/tundey/.nuget/packages/mysqlconnector/2.2.7/mysqlconnector.2.2.7.nupkg.sha512"
+  ],
   "logs": []
 }

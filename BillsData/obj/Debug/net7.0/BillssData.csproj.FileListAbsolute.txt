@@ -1,0 +1,12 @@
+/Users/tundey/Projects/BillsReminder/BillsData/bin/Debug/net7.0/BillssData.deps.json
+/Users/tundey/Projects/BillsReminder/BillsData/bin/Debug/net7.0/BillssData.dll
+/Users/tundey/Projects/BillsReminder/BillsData/bin/Debug/net7.0/BillssData.pdb
+/Users/tundey/Projects/BillsReminder/BillsData/obj/Debug/net7.0/BillssData.csproj.AssemblyReference.cache
+/Users/tundey/Projects/BillsReminder/BillsData/obj/Debug/net7.0/BillssData.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tundey/Projects/BillsReminder/BillsData/obj/Debug/net7.0/BillssData.AssemblyInfoInputs.cache
+/Users/tundey/Projects/BillsReminder/BillsData/obj/Debug/net7.0/BillssData.AssemblyInfo.cs
+/Users/tundey/Projects/BillsReminder/BillsData/obj/Debug/net7.0/BillssData.csproj.CoreCompileInputs.cache
+/Users/tundey/Projects/BillsReminder/BillsData/obj/Debug/net7.0/BillssData.dll
+/Users/tundey/Projects/BillsReminder/BillsData/obj/Debug/net7.0/refint/BillssData.dll
+/Users/tundey/Projects/BillsReminder/BillsData/obj/Debug/net7.0/BillssData.pdb
+/Users/tundey/Projects/BillsReminder/BillsData/obj/Debug/net7.0/ref/BillssData.dll

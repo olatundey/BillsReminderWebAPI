@@ -24,20 +24,11 @@ namespace BillssData.Models
         //[CustomValidation(typeof(Bills), "ValidateFutureDate")]
         public DateTime DueDate { get; set; }
 
-        [Required]
-        public DateTime CreatedAt { get; set; }
+        //[Required]
+        //public DateTime CreatedAt { get; set; }
 
-        [Required]
-        public DateTime UpdatedAt { get; set; }
-
-        //public static ValidationResult ValidateFutureDate(DateTime date, ValidationContext context)
-        //{
-        //    if (date.Date < DateTime.Now.Date)
-        //    {
-        //        return new ValidationResult("Due date must be a future date.");
-        //    }
-        //    return ValidationResult.Success;
-        //}
+        //[Required]
+        //public DateTime UpdatedAt { get; set; }
 
     }
 }
