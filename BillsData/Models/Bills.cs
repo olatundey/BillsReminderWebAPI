@@ -30,7 +30,6 @@ namespace BillssData.Models
         //[Required]
         //public DateTime UpdatedAt { get; set; }
 
-
     }
 }
 
