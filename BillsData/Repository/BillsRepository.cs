@@ -57,7 +57,6 @@ IEnumerable<Bills> bill = await _db.GetData<Bills, dynamic>(query, new { BillNam
 return bill.FirstOrDefault();
 }
 
-      
         public async Task<Bills> GetBillsById(int BillId)
 {
         string query = "select * from bills where BillID=@BillID";
